@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 JSONArray array = new JSONArray(weatherInfo);
                 JSONObject pogoda = array.getJSONObject(0);
 
-                Log.i("Opis", pogoda.getString("description"));
+                Log.i("Opis   ", pogoda.getString("description"));
             } catch (JSONException e) {
                 e.printStackTrace();
             }
